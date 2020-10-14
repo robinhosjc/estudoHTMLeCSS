@@ -1,0 +1,83 @@
+/*--------------------------------------------------------------
+# Base
+--------------------------------------------------------------*/
+:root {    
+    --white:  #FFF;
+    --black:  #000;
+    --blue:   #0080dc;
+    
+    --gray-100: #c7c7cc;
+    --gray-200: #6b6b6b;
+}
+
+/*--------------------------------------------------------------
+# General
+--------------------------------------------------------------*/
+body {
+    color: var(--gray-200);
+    background-color: var(--blue);    
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.right {
+    float: right;
+}
+
+.left {
+    float: left;
+}
+
+
+/*--------------------------------------------------------------
+# Form
+--------------------------------------------------------------*/
+.form {
+    width: 100%;
+    background-color: var(--white);
+    max-width: 420px;
+    padding: 25px 70px;
+    margin: auto;
+    border-radius: 3px;
+}
+
+.form h1 {
+    text-align: left;
+    color: var(--black);
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.form .form-row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -5px;
+    margin-left: -5px;
+    margin-bottom: 15px;
+}
+
+.form .form-col-3 {
+    width: 30%;
+}
+
+.form .form-col-5 {
+    width: 50%;
+}
+
+.form .form-col-7 {
+    width: 70%;
+}
+
+.form span {
+    float: left;
+    font-size: 20px;
+}
+
+.form input, select {
+  border-radius: 3px;
+  box-shadow: none;
+  font-size: 14px;
+  border: 1px solid var(--gray-100);
+  padding: .375rem .75rem;  
+  margin-left: 10px;
+}
